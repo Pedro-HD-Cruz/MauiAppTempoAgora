@@ -50,7 +50,7 @@ namespace MauiAppTempoAgora.Services
             }
             catch (HttpRequestException ex)
             {
-                throw new Exception($"Erro de conexão com a internet: {ex.Message}. Por favor, verifique sua conexão.");
+                throw new Exception($"Erro de conexão com a internet: {ex.Message}. Por favor, verifique sua conexão."); 
             }
         }
     }
